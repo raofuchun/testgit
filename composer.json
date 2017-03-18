@@ -1,0 +1,11 @@
+{
+    "name": "raofuchun/demo",
+    "description": "test project",
+    "authors": [
+        {
+            "name": "raofuchun",
+            "email": "raofuchun@126.com"
+        }
+    ],
+    "require": {}
+}
