@@ -7,5 +7,23 @@
             "email": "raofuchun@126.com"
         }
     ],
-    "require": {}
+    "require": {
+        "gregwar/captcha": "^1.1",
+        "imagine/imagine": "^0.6.3"
+    },
+    "autoload":{
+        "files":[
+            "core/functions.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
 }
